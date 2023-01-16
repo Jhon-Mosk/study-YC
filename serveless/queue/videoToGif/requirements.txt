@@ -1,0 +1,4 @@
+boto3==1.26.49
+requests==2.22.0
+yandex==0.0.2
+yandexcloud==0.194.0

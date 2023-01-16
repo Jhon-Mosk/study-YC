@@ -1,0 +1,15 @@
+{
+    "AttributeDefinitions": [
+        {
+            "AttributeName": "task_id",
+            "AttributeType": "S"
+        }
+    ],
+    "KeySchema": [
+        {
+            "AttributeName": "task_id",
+            "KeyType": "HASH"
+        }
+    ],
+    "TableName": "tasks"
+}
