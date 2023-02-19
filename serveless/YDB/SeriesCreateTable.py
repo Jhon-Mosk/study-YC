@@ -1,7 +1,7 @@
 import boto3
 
 def create_series_table():
-    ydb_docapi_client = boto3.resource('dynamodb', endpoint_url = "https://docapi.serverless.yandexcloud.net/ru-central1/b1ghk9uitis1fanhbci6/etn0s60acnb01kg3t91e")
+    ydb_docapi_client = boto3.resource('dynamodb', endpoint_url = "https://docapi.serverless.yandexcloud.net/ru-central1/b1***i6/et***1e")
 
     table = ydb_docapi_client.create_table(
         TableName = 'docapitest/series', # Series — имя таблицы 

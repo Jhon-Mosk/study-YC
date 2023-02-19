@@ -8,13 +8,13 @@ terraform {
 }
 
 provider "yandex" {
-  token     = "AQAAAAAOj-IRAATuwdh9ssyKhU3UvkuyQkOTgw0"
-  cloud_id  = "b1ghk9uitis1fanhbci6"
-  folder_id = "b1gp2lhjstd03j7rff3m"
+  token     = "AQ***w0"
+  cloud_id  = "b1***i6"
+  folder_id = "b1***3m"
 }
 
 resource "yandex_storage_bucket" "bucket" {
-  access_key = "YCAJEIaKBMcNsoNSgoMqQglBG"
-  secret_key = "YCNBP5E8PSN6GmqHXS0nv5pzGHR4qUHWLo_EDS82"
-  bucket = "bucket-for-trigger-b1ghk9uitis1fanhbci6"
+  access_key = "YC***BG"
+  secret_key = "YC***82"
+  bucket = "bucket-for-trigger-b1***i6"
 }

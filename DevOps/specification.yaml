@@ -1,5 +1,5 @@
 name: my-group
-service_account_id: ajetl1sng1kvgcjhovhr
+service_account_id: aj***hr
 instance_template:
   platform_id: standard-v1
   resources_spec:
@@ -8,11 +8,11 @@ instance_template:
   boot_disk_spec:
     mode: READ_WRITE
     disk_spec:
-      image_id: fd8jiqkvkl80djs4t3u6
+      image_id: fd***u6
       type_id: network-hdd
       size: 32g
   network_interface_specs:
-    - network_id: enpmqbhpo2jtg2qoq56v
+    - network_id: en***6v
       primary_v4_address_spec: { one_to_one_nat_spec: { ip_version: IPV4 } }
   scheduling_policy:
     preemptible: false

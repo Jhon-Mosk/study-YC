@@ -3,19 +3,19 @@ info:
   title: Updated API
   version: 1.0.0
 servers:
-  - url: https://d5do64vg3bkob7l3evno.apigw.yandexcloud.net
+  - url: https://d5***no.apigw.yandexcloud.net
 paths:
   /results:
     get:
       x-yc-apigateway-integration:
         type: cloud-functions
-        function_id: d4e4ekp63ramqjpcene9
-        service_account_id: aje7e481l77uk8g0fa1r
+        function_id: d4***e9
+        service_account_id: aj***1r
       operationId: function-for-user-requests
   /check:
     get:
       x-yc-apigateway-integration:
         type: cloud-functions
-        function_id: d4e7clhrs8n4i0nlh8fc
-        service_account_id: aje7e481l77uk8g0fa1r
+        function_id: d4***fc
+        service_account_id: aj***1r
       operationId: add-url

@@ -3,7 +3,7 @@ import boto3
 from boto3.dynamodb.conditions import Key
 
 def query_and_project_series(series_id, title_range):
-    ydb_docapi_client = boto3.resource('dynamodb', endpoint_url = "https://docapi.serverless.yandexcloud.net/ru-central1/b1ghk9uitis1fanhbci6/etn0s60acnb01kg3t91e")
+    ydb_docapi_client = boto3.resource('dynamodb', endpoint_url = "https://docapi.serverless.yandexcloud.net/ru-central1/b1***i6/et***1e")
 
     table = ydb_docapi_client.Table('docapitest/series')
     

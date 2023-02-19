@@ -7,6 +7,6 @@ paths:
     get:
       x-yc-apigateway-integration:
         type: cloud-functions
-        function_id: d4e4ekp63ramqjpcene9
-        service_account_id: aje7e481l77uk8g0fa1r
+        function_id: d4***e9
+        service_account_id: aj***1r
       operationId: function-for-user-requests
